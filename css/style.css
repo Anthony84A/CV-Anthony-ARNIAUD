@@ -104,3 +104,31 @@
     border-color: #782221;
     transition: 0.5s; 
 }
+
+
+/* FOOTER STYLE */
+
+.social_media img {
+    background-color: #782221;
+    color: white;
+    height: 50px;
+}
+
+.social_media {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 500px;
+    margin-right: 400px;
+    padding-top: 20px;
+}
+
+.social_media a:hover {
+    opacity: 50%;
+    transition: 0.5s;
+}
+
+#maj {
+    display: flex;
+    justify-content: center;
+    font-family: 'Raleway', sans-serif;
+}
