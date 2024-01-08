@@ -61,3 +61,46 @@
     text-decoration: underline;
     color: white;
 }
+
+
+
+
+/* MAIN LEFT & RIGHT STYLE*/
+
+.main_block {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.main_left {
+    width: 400px;
+    background-color: #782221;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.main_right {
+    width: 760px;
+    background-color: white;
+    color: black;
+    border-right: solid black;
+}
+
+.style_text {
+    text-indent: 8%;
+}
+
+.border_on_hover {
+    width :fit-content;
+    padding-right: 50px;
+    border-right: solid 4px;
+    border-color: white;
+}
+
+.border_on_hover:hover { 
+    border-color: #782221;
+    transition: 0.5s; 
+}
